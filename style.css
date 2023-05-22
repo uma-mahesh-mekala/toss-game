@@ -8,7 +8,7 @@ h1{
     font-weight:300;
     color:#4ECCA3;
     text-shadow: 5px 0 #232931;
-    font-size:8rem;
+    font-size:6rem;
     margin:0;
     /* font-family: 'Caveat', cursive; */
     /* font-family: 'Playfair Display', serif; */
@@ -34,6 +34,20 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#btn{
+    margin-top:50px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    background-color: yellow;
+    padding:5px;
+    padding-left:5px;
+    border:solid;
+    padding-right:5px;
+    border-radius: 10px;;
+}
+button:hover{
+    background-color: white;
 }
 @media (max-width:600px)
 {
